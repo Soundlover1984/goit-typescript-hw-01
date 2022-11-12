@@ -1,0 +1,130 @@
+:root{
+    --primary-font-color: #212121;
+    --secondary-font-color: #757575;
+    --accent-color: #2196F3;
+    --primary-background: #FFFFFF;
+    --secondary-background: #2F303A;
+    --contact-footer: #FFFFFF60;
+    --logo-color: #000000;
+    --button-current: #F5F4FA;
+}
+
+
+body{
+background-color: var(--primary-background);
+color:var(--primary-font-color);
+}
+
+.list{
+    list-style: none;
+}
+
+/* Site nav */
+.web-logo{
+    color: var(--accent-color);  
+}
+
+.logo-link{
+    color: var(--logo-color);
+    text-decoration: none;
+}
+
+.logo-link:hover,
+.logo-link:focus {
+    color: var(--accent-color)
+}
+
+.site-nav .link {
+    color: var(--primary-font-color);
+    text-decoration: none;
+}
+
+.site-nav .link.current{
+color: var(--accent-color);
+}
+
+.contact-nav .link {
+    color: var(--secondary-font-color);
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Main title */
+.main{
+    background-color: var(--secondary-background);
+}
+.main-title {
+    color: var(--primary-background)
+}
+.main-button{
+    color: var(--primary-background);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    border: none;
+}
+.main-button:hover,
+.main-button:focus{
+color: var(--primary-font-color);
+}
+
+/* Activity section */
+.avtivity-content{
+    color:var(--secondary-font-color)
+}
+/* Work section */
+
+
+/* Team section */
+.team-content{
+color: var(--secondary-font-color);
+}
+/* Footer */
+.footer-block{
+    background-color: var(--secondary-background);
+}
+.logo-footer{
+    color: var(--primary-background);
+    text-decoration: none;
+}
+.logo-footer:hover,
+.logo-footer:focus{
+color: var(--accent-color);
+}
+
+.adress-footer {
+    color: var(--primary-background);
+}
+.contact-footer .link{
+    color: var(--contact-footer) ;
+    text-decoration: none;
+}
+.contact-footer .link:hover,
+.contact-footer .link:focus
+{
+    color: var(--primary-background);
+}
+
+/* Portfolio button */
+.prf-button {
+    background-color: var(--button-current);
+    border: none;
+    cursor: pointer;
+}
+.prf-button:hover,
+.prf-button:focus{
+    background-color: var(--accent-color);
+    color: var(--primary-background);
+}
+/* Examples */
+.examples-item{
+    color: var(--secondary-font-color);
+}
