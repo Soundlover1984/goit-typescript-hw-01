@@ -7,6 +7,7 @@
     --contact-footer: #FFFFFF60;
     --logo-color: #000000;
     --button-current: #F5F4FA;
+    --active-button: #188CE8;
 }
 
 
@@ -37,11 +38,6 @@ background-color: var(--primary-background);
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-}
-
-.logo-link:hover,
-.logo-link:focus {
-    color: var(--accent-color)
 }
 
 .site-nav .link {
@@ -87,18 +83,17 @@ color: var(--accent-color);
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    text-align: center;
     text-transform: uppercase;
 }
 
 .main-button{
     color: var(--primary-background);
     background-color: var(--accent-color);
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
     border: none;
@@ -106,7 +101,7 @@ color: var(--accent-color);
 
 .main-button:hover,
 .main-button:focus{
-color: var(--primary-font-color);
+   background-color: var(--active-button);
 }
 
 /* Activity section */
@@ -132,6 +127,7 @@ color: var(--primary-font-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -168,12 +164,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
-.logo-footer:hover,
-.logo-footer:focus{
-color: var(--accent-color);
-}
-
-.adress-footer {
+.adress-footer{
     color: var(--primary-background);
     font-style: normal;
     font-size: 14px;
@@ -191,15 +182,23 @@ color: var(--accent-color);
 .contact-footer .link:hover,
 .contact-footer .link:focus
 {
-    color: var(--primary-background);
+    color: var(--accent-color);
 }
 
 /* Portfolio button */
 .prf-button {
+    color: var(--primary-font-color);
     background-color: var(--button-current);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
     border: none;
     cursor: pointer;
 }
+
 .prf-button:hover,
 .prf-button:focus{
     background-color: var(--accent-color);
@@ -207,7 +206,12 @@ color: var(--accent-color);
 }
 /* Examples */
 
+.link-style{
+    text-decoration: none;
+}
+
 .examples-title{
+    color: var(--primary-font-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
