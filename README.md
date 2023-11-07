@@ -1,4 +1,4 @@
-Node.js backend that provides functionality for the Drink Master application.
+## Node.js backend that provides functionality for the Drink Master application.
 
 
 This is the server-side component of the Drink Master project, developed using the Express framework in a Node.js environment. It relies on MongoDB as its database and utilizes Cloudinary for storing images. The server offers the following functionalities:
@@ -32,7 +32,7 @@ Recipe Handling
       recipe information, ingredients, preparation steps, and possibly images.
 
 
-Used Technologies:
+## Used Technologies:
 
       Node.js: The backend server is constructed with Node.js,
       facilitating efficient execution of server-side JavaScript code.
@@ -61,12 +61,12 @@ Used Technologies:
       to API endpoints, inspect responses, and automate various testing scenarios.
 
 
-API Documentation
+## API Documentation
 
 For comprehensive API documentation and testing, you can access the [Swagger API Documentation](https://drink-master-app.onrender.com/api-docs/). Please note that the initial loading time might be extended, as the backend deployment relies on a free render.com service.
 
 
-Contributors:
+## Contributors:
 
 - Denys Kovtun - Team Lead / Developer
   - [GitHub](https://github.com/Soundlover1984)
